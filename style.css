@@ -1,0 +1,262 @@
+body{
+    margin: 0;                              /*убирает отступы от всех краев*/
+    background-image: url(https://altanschool.s3.eu-central-1.amazonaws.com/learns/1697021662483_headerpic.jpg); /*изображение фона*/
+    background-size: 100%;                  /*размер фона*/
+    background-position-y: -50px;           /*изображение чуть поднято наверх*/
+    background-attachment: fixed;           /*фиксация фона*/
+}
+
+header{
+    height: 100%;               /*высота*/
+    padding: 30px;          /*внутренний отступ*/
+    text-align: right;      /*текст выровнени влево*/
+    color: rgb(0, 0, 91); /*цвет текста*/
+    font-size: 25px;        /*размер текста*/
+}
+
+h1{
+    padding-top: 50px;  /*Дополнительный отступ заголовка*/
+    font-size: 80px;    /*размер заголовка*/
+    color:rgb(255, 255, 255);  /*цвет*/
+}
+
+main{
+    height: 1000px;   /*высота основной части*/
+    display: flex;
+}
+
+footer{
+    height: 100%;    /*высота*/
+    text-align: left;  /*текст выровннен влево*/
+    padding: 50px;   /*внутренний оступ*/
+    color: white;  /*цвет текста*/
+    font-size: 20px;  /*размер текста*/
+}
+
+.social{
+    list-style: none; /*убирает маркеры*/
+    display: flex; /*отображает в ряд*/
+    align-items: left; /*выравнивает иконки по центру внутри каждого пункта*/
+    justify-content: left; /*выравнивает все иконки по центру страницы*/
+    margin: 0;
+    padding: 0;
+}
+
+.social li {
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.odin{
+    height: 100%;
+    width:25%;
+    background-color: bisque;
+    text-align: center;
+    
+}
+
+.dva{
+   height: 100%;
+   width: 25%;
+   background-color:aquamarine;
+   text-align: center;
+}
+
+.tri{
+   height: 100%;
+   width: 25%;
+   background-color:blue;
+   text-align: center;
+}
+
+.four{
+    height: 100%;
+   width: 25%;
+   background-color:rgb(243, 143, 2);
+   text-align: center;
+}
+
+.odin li{
+    background-color: brown;
+    line-height: 2em;
+    margin-top: 10px;
+    border-radius: 3em;
+    width: 60%;
+    height: 70px;
+}
+
+.odin li:hover{
+    background-color: rgb(43, 123, 214);
+    color: aliceblue;
+    width:60%;
+    height: 100px;
+}
+
+.odin ul{
+    padding-left: 20%;
+}
+.odin{     background: linear-gradient(to left, green, blue);}
+
+.dva li{
+    background-color: rgb(116, 206, 32);
+    line-height: 2em;
+    margin-top: 10px;
+    border-radius: 3em;
+    width: 60%;
+    height: 70px;
+}
+.dva li:hover{
+    background-color: rgb(94, 27, 177);
+    color: aliceblue;
+    width:60%;
+    height: 100px;
+}
+
+.dva ul{
+    padding-left: 20%;
+}
+
+.tri li{
+    background-color: rgb(237, 237, 17);
+    line-height: 2em;
+    margin-top: 10px;
+    border-radius: 3em;
+    width: 60%;
+    height: 70px;
+}
+
+.tri li:hover{
+    background-color: rgb(120, 49, 118);
+    color: aliceblue;
+    width:60%;
+    height: 100px;
+}
+
+.tri ul{
+    padding-left: 20px;
+}
+
+.four li{
+    background-color: rgb(73, 211, 31);
+    line-height: 2em;
+    margin-top: 10px;
+    border-radius: 3em;
+    width: 60%;
+    height: 70px;
+}
+
+.four li:hover{
+    background-color: rgb(0, 66, 234);
+    color: aliceblue;
+    width:60%;
+    height: 100px;
+}
+
+.four ul{
+    padding-left: 20px;
+}
+
+.nav{
+    position: sticky;
+    top: 0;
+}
+
+
+.nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+    font-size: 20px;
+    width: 100%;
+    border: 2px solid white;
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+
+.nav a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 8px 16px;
+    float: left;
+}
+
+.nav a:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+.block5{
+    width: 100%;
+    height: 200px;
+    padding: 50px;
+    background-color: azure;
+}
+
+.btn1{
+    width: 300px;
+    height: 70px;
+    background-color: rgb(27, 123, 208);
+    color: black;
+    padding: 20px 30px;
+    font-size: 30px;
+    text-align: none;
+    border: none;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 10px 10px 12px;
+    cursor: pointer;
+}
+
+.btn1:hover{
+    background-color: rgb(230, 109, 16);
+    color: white;
+    border: 2px solid black;
+    box-shadow: 0px 0px 0px black;
+}
+
+.btn1:active{
+    background-color: aquamarine;
+    color: rgb(253, 253, 2);
+}
+
+.form{
+    width: 400px;
+    float:right;
+    display:flex;
+}
+
+input{
+    padding: 10px 20px;
+    border: 1px;
+    font-size: 20px;
+}
+
+.search{
+    width: 75%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.button{
+    width: 25%;
+    background-color: aqua;
+    color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: rgba(27, 201, 254, 0.487);
+    color: rgba(166, 25, 231, 0.943);
+}
+
+.img_button{
+    height: 2em;
+    position: relative;
+}
+.img_button:hover{
+    cursor: pointer;
+}
